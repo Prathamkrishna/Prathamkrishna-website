@@ -65,10 +65,27 @@
   cursor: pointer;
 }
 
+.lightdarkmode:hover{
+  cursor: pointer;
+}
+
+@media (max-width: 360px){
+  .body1{
+    margin-left: 0px;
+    margin-right: 50px;
+  }
+  .bodyheader{
+    line-height: 30px;
+  }
+  
+}
 @media (max-width: 600px) {
   .body1{
     margin-left: 0px;
     margin-right: 0px;
+  }
+  .bodyheader{
+    line-height: 30px;
   }
 }
 @media (max-width: 740px) {
@@ -76,10 +93,16 @@
     margin-left: 0px;
     margin-right: 0px;
   }
+  .bodyheader{
+    line-height: 30px;
+  }
 }
 @media (max-width: 1024px){
   .body1{
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .bodyheader{
+    line-height: 30px;
   }
 }
