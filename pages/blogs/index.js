@@ -1,19 +1,32 @@
 import styled from 'styled-components';
+import Link from 'next/link';
+import {IoArrowForwardCircleOutline} from 'react-icons/io5'
 
 export default function Blogs(){
+    const Readmore = styled.span`
+        font-size: 20px;
+        opacity: 10%;
+    `
     const Hash = styled.span`
         color: white;
         opacity: 10%;
-        :hover{
-            opacity: 100%;
-            border-bottom: 3px solid;
-            border-color: red;
-        }
+        // :hover{
+        //     opacity: 100%;
+        //     border-bottom: 3px solid;
+        //     border-color: red;
+        // }
     `
     const Headingofblog = styled.div`
         color: white;
         font-size: 50px;
         font-family: 'Brush Script MT', cursive;
+        :hover{
+            ${Hash}{
+                opacity: 100%;
+                border-bottom: 3px solid;
+                border-color: red;
+            }
+        }
     `
     const Word = styled.div`
         color: white;
@@ -21,9 +34,14 @@ export default function Blogs(){
         border-color: white;
         border-radius: 10px;
         padding: 10px;
-        :hover{
+        &:hover{
             cursor: pointer;
             margin: -1px;
+            color: lightblue;
+            border-color: lightblue;
+            ${Readmore}{
+                opacity: 100%;
+            }
         }
     `
     const Blogheader = styled.div`
@@ -39,18 +57,26 @@ export default function Blogs(){
             </Headingofblog>
             <br />
             <br />
-            <Word>
-                <Blogheader>
-                    hhii lol
-                </Blogheader>
-                <br />
-                hi
-            </Word>
+            <Link href="/blogs/halfyearinreview"><a>
+                <Word>
+                    <Blogheader>
+                        Half the year in a review
+                    </Blogheader>
+                    <br />
+                    Pratham talks about the first 6 months of his 2021 in a glance.
+                    <br />
+                    Read More <Readmore><IoArrowForwardCircleOutline /></Readmore>
+                </Word>
+            </a></Link>
             <br />
             <Word>
                 <Blogheader>
-                    hi there
+                    My second blog
                 </Blogheader>
+                <br />
+                This is the sub content for second blog.
+                <br />
+                Read More <Readmore><IoArrowForwardCircleOutline /></Readmore>
             </Word>
         </Wrapper>
     )

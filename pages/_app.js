@@ -1,14 +1,14 @@
-import '../styles/globals.css';
+import globals from '../styles/globals.css';
 import styles from '../styles/Home.module.css';
 import Link from 'next/link';
 import {FaDesktop} from 'react-icons/fa';
 import {IoHardwareChipOutline, IoLogoGithub, IoSunnyOutline, IoMoonOutline} from 'react-icons/io5';
 import { useState } from 'react';
 
-// do some work: add light + dark mode. using inlinecss
 
 function MyApp({ Component, pageProps }) {
   const [count, setCount] = useState(0);
+
   function DarkLight(){
     if(count === 0){
       return(

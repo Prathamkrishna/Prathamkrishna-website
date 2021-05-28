@@ -41,11 +41,11 @@
 
 .strongtext{
   font-size: 18px;
-  color: blue;
+  color: rgb(81, 72, 163);
 } 
 
 .otherlinks{
-  color: rgb(81, 72, 163);
+  color: blue;
 }
 
 .otherlinks:hover{
