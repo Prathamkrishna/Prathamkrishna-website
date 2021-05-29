@@ -24,7 +24,7 @@ export default function Halfyearinreview(){
     `
     const Websites = styled.span`
         color: blue;
-        font-side: 18px;
+        font-size: 18px;
         :hover{
             border-bottom: 2px solid;
             border-color: red;
@@ -32,6 +32,12 @@ export default function Halfyearinreview(){
     `
     const Otherimportant = styled.span`
         color: rgb(81, 72, 163);
+    `
+    const Subheading = styled.span`
+        font-size: 20px;
+        color: red;
+        border-bottom: 2px solid;
+        border-color: blue;
     `
     return(
         <div>
@@ -67,6 +73,19 @@ export default function Halfyearinreview(){
                     <li>Build an application using NextJS</li>
                     <li>Learn <Link href="https://www.java.com/en/"><a><Websites>Java</Websites></a></Link> for the Back-end</li>
                 </ul>
+                This to a good extent makes me a <Otherimportant>front-end developer</Otherimportant>. But there are always other tools one can use; for example: <Link href="https://graphql.org/"><a><Websites>GraphQL</Websites></a></Link>, a query language which shortens the code usage.
+                <br />
+                <br />
+                <Subheading>Was this all I did in the last 4 months?</Subheading>
+                <br />
+                <br />
+                Nope! I worked on <Link href="http://www.cplusplus.org/"><a><Websites>C++</Websites></a></Link> and <Link href="https://www.java.com/en/"><a><Websites>Java</Websites></a></Link>, built a few applications based on real life problems faced by me and a few others!
+                A very obvious question in your mind would be "why do both C++ and Java?"; I started of with C++ as it was a part of the curriculum at my college. Anyhow, I had to move to Java since my plan is to use Java for <Otherimportant>Server-Side Rendering</Otherimportant> and the <Otherimportant>back-end.</Otherimportant>
+                I'm currently working on <Otherimportant>Data Structures and Algorithms</Otherimportant> on both C++ and Java!
+                <br />
+                To sum all this up, the last 6 months have been amazing! This is something that has been giving me all happiness in the world since day 1 and today, looking back at this journey feels really peaceful deep down. 
+                <br />
+                Ofcourse I couldn't do it all without the help of a few people who were there for when I was stuck on a problem, or a concept. So a huge <Otherimportant>THANK YOU</Otherimportant> to everyone who has been a part of my journey, even if it was a tiny contribution to my growth :)
             </Body1>
         </div>
     )

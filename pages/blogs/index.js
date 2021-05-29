@@ -68,7 +68,6 @@ export default function Blogs(){
                     Read More <Readmore><IoArrowForwardCircleOutline /></Readmore>
                 </Word>
             </a></Link>
-            
         </Wrapper>
     )
 }
