@@ -68,16 +68,7 @@ export default function Blogs(){
                     Read More <Readmore><IoArrowForwardCircleOutline /></Readmore>
                 </Word>
             </a></Link>
-            <br />
-            <Word>
-                <Blogheader>
-                    My second blog
-                </Blogheader>
-                <br />
-                This is the sub content for second blog.
-                <br />
-                Read More <Readmore><IoArrowForwardCircleOutline /></Readmore>
-            </Word>
+            
         </Wrapper>
     )
 }
