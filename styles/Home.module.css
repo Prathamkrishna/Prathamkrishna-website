@@ -45,7 +45,7 @@
 } 
 
 .otherlinks{
-  color: blue;
+  color: rgb(84, 104, 170);
 }
 
 .otherlinks:hover{
@@ -61,7 +61,7 @@
 
 .bulletedhead:hover{
   border-bottom: 3px solid;
-  border-color: blue;
+  border-color: rgb(84, 104, 170);
   cursor: pointer;
 }
 

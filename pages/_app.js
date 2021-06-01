@@ -2,25 +2,10 @@ import globals from '../styles/globals.css';
 import styles from '../styles/Home.module.css';
 import Link from 'next/link';
 import {FaDesktop} from 'react-icons/fa';
-import {IoHardwareChipOutline, IoLogoGithub, IoSunnyOutline, IoMoonOutline} from 'react-icons/io5';
-import { useState } from 'react';
+import {IoHardwareChipOutline, IoLogoGithub, IoBookOutline} from 'react-icons/io5';
 
 
 function MyApp({ Component, pageProps }) {
-  const [count, setCount] = useState(0);
-
-  function DarkLight(){
-    if(count === 0){
-      return(
-        <IoMoonOutline onClick={()=>setCount(count + 1)} />
-      )
-    }
-    if(count === 1){
-      return(
-        <IoSunnyOutline onClick={()=>setCount(count - 1)} />
-      )
-    }
-  }
   return (
     <div className={styles.body1}>
       <div className={styles.heading}>
@@ -30,9 +15,9 @@ function MyApp({ Component, pageProps }) {
         <div className={styles.rightheader}>
           <Link href="https://www.github.com/Prathamkrishna"><a><IoLogoGithub /></a></Link>
           {" "}
-          <Link href="/blogs"><a><IoHardwareChipOutline /></a></Link>
+          <Link href="/blogs"><a><IoBookOutline /></a></Link>
           {" "}
-          <span className={styles.lightdarkmode}><DarkLight /></span>
+          <Link href="https://docs.google.com/document/d/1FXJx9CgTUu2VYwuBFwcVD9CRxaa-8fqaGSiGS72anxA/edit?usp=sharing"><a><IoHardwareChipOutline /></a></Link>
         </div>
       </div>
       <Component {...pageProps} />

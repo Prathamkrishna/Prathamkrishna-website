@@ -23,7 +23,7 @@ export default function Halfyearinreview(){
         font-family: 'Courier New', monospace;
     `
     const Websites = styled.span`
-        color: blue;
+        color: rgb(84, 104, 170);
         font-size: 18px;
         :hover{
             border-bottom: 2px solid;
@@ -31,7 +31,7 @@ export default function Halfyearinreview(){
         }
     `
     const Otherimportant = styled.span`
-        color: rgb(81, 72, 163);
+        color: rgb(49, 59, 94);
     `
     const Subheading = styled.span`
         font-size: 20px;
