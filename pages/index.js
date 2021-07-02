@@ -9,7 +9,7 @@ export default function Home() {
       <br />
       <span className={styles.bodyheader}>Hey there, my name is Pratham Krishna! <FaLaughBeam /> </span>
       <br />
-      I am a developer from India, primarily working on <strong className={styles.strongtext}>React and Next</strong> along with their libraries. I also love working with <strong className={styles.strongtext}>C++ and Java.</strong> My non-technical skills include the usage of a few <strong className={styles.strongtext}>data structures, algorithms, flow-chart and pseudocode.</strong> Apart from my work life, I love exploring new music from a variety of genres; I have multiple organised playlists on Spotify! I also love travelling on my motorcycle whenever I need a break/time off.
+      I am a developer from India, primarily working on <strong className={styles.strongtext}>React</strong> and it's frameworks and libraries. I also love working with <strong className={styles.strongtext}>ExpressJS, MongoDB, C++ and Java.</strong> My non-technical skills include the usage of a few <strong className={styles.strongtext}>data structures, algorithms, flow-chart and pseudocode.</strong> Apart from my work life, I love exploring new music from a variety of genres; I have multiple organised playlists on Spotify! I also love travelling on my motorcycle whenever I need a break/time off.
       <br /><br /><br />
       I am currently a freshman studying at <Link href="https://www.lpu.in"><a><strong className={styles.otherlinks}>Lovely Professional University</strong></a></Link>, India pursuing a bachelors degree of honours in Computer Science Engineering. 
       <br /><br /><br />
@@ -23,7 +23,7 @@ export default function Home() {
         <br />
         <li><span className={styles.bulletedhead}><Link href="https://visualstudio.microsoft.com/vs/"><a>Visual Studio 2019</a></Link>:</span> I love Visual Studio 2019 even though it is a very heavy application but it is very helpful when I have to make either C++ or Java applications to keep a tab on the memory used and other production tools.</li>
         <br />
-        <li><span className={styles.bulletedhead}><Link href="https://nextjs.org/"><a>NextJS</a></Link>:</span> NextJS is one beautiful React framework, reduces quite a bit of workload for me and makes the development easier!</li>
+        <li><span className={styles.bulletedhead}><Link href="https://expressjs.com/"><a> ExpressJS</a></Link></span><span className={styles.bulletedhead}> + </span><span className={styles.bulletedhead}><Link href="https://www.mongodb.com/"><a>MongoDB</a></Link>:</span>I primarily use ExpressJS and MongoDB for my backend. When it comes to using the two tools together, i prefer using Mongo's native drivers, I found it relatively easier than using a npm package like Mongoose.</li>
         <br />
       </ul>
     </div>
