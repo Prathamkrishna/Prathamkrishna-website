@@ -6,6 +6,8 @@ import Link from 'next/link';
 export default function Home() {
   return(
     <div className={styles.bodysection}>
+      <meta name="description" content="Hey! My name is Pratham Krishna and I'm a developer from India, primarily working on React and it's frameworks like Nextjs. I also happen to work on React native, node, expressJS and MongoDB!" />
+      <meta httpEquiv = "content-language" content = "en"></meta>
       <br />
       <span className={styles.bodyheader}>Hey there, my name is Pratham Krishna! <FaLaughBeam /> </span>
       <br />
