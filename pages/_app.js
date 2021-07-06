@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
         <div className={styles.rightheader}>
           <Link href="https://www.github.com/Prathamkrishna"><a><IoLogoGithub /></a></Link>
           {" "}
-          <Link href="/blogs"><a><IoBookOutline /></a></Link>
+          <Link href="/blogs"><a><meta name="description" content="Blogs" /><IoBookOutline /></a></Link>
           {" "}
           <Link href="https://docs.google.com/document/d/1FXJx9CgTUu2VYwuBFwcVD9CRxaa-8fqaGSiGS72anxA/edit?usp=sharing"><a><IoHardwareChipOutline /></a></Link>
         </div>
