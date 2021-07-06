@@ -68,6 +68,18 @@ export default function Blogs(){
                     Read More <Readmore><IoArrowForwardCircleOutline /></Readmore>
                 </Word>
             </a></Link>
+            <br />
+            <Link href="/blogs/creatingpopup"><a>
+                <Word>
+                    <Blogheader>
+                        Creating a Pop-up and adding it to your react application!
+                    </Blogheader>
+                    <br />
+                    We've all seen those "pop ups" with the message regarding the usage of cookies by the website, this blog gives a tutorial on developing a similar pop-up.
+                    <br />
+                    Read More <Readmore><IoArrowForwardCircleOutline /></Readmore>
+                </Word>
+            </a></Link>
         </Wrapper>
     )
 }

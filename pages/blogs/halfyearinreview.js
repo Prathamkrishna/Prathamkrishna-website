@@ -11,6 +11,10 @@ export default function Halfyearinreview(){
 	    -webkit-background-clip: text;
 	    -webkit-text-fill-color: transparent;
         line-height: 100px;
+        @media (max-width: 768px){
+            font-size: 50px;
+            line-height: 50px;
+        }
     `   
     const Date = styled.span`
         color: #d24dff;
@@ -31,7 +35,7 @@ export default function Halfyearinreview(){
         }
     `
     const Otherimportant = styled.span`
-        color: rgb(49, 59, 94);
+        color: 7300e6;
     `
     const Subheading = styled.span`
         font-size: 20px;
