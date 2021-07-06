@@ -9,11 +9,10 @@ export default function Home() {
       <title>
         Pratham Krishna
       </title>
-      <h1></h1>
       <meta name="description" content="Hey! My name is Pratham Krishna and I'm a developer from India, primarily working on React and it's frameworks like Nextjs. I also happen to work on React native, node, expressJS and MongoDB!" />
       <meta httpEquiv = "content-language" content = "en"></meta>
       <br />
-      <span className={styles.bodyheader}>Hey there, my name is Pratham Krishna! <FaLaughBeam /> </span>
+      <h1 className={styles.bodyheader}>Hey there, my name is Pratham Krishna! <FaLaughBeam /> </h1>
       <br />
       I am a developer from India, primarily working on <strong className={styles.strongtext}>React</strong> and it's frameworks and libraries. I also love working with <strong className={styles.strongtext}>ExpressJS, MongoDB, C++ and Java.</strong> My non-technical skills include the usage of a few <strong className={styles.strongtext}>data structures, algorithms, flow-chart and pseudocode.</strong> Apart from my work life, I love exploring new music from a variety of genres; I have multiple organised playlists on Spotify! I also love travelling on my motorcycle whenever I need a break/time off.
       <br /><br /><br />
