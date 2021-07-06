@@ -51,9 +51,6 @@ export default function CreatingPopUp(props){
     `
     return(
         <div>
-            <meta property={body}>
-                hii
-            </meta>
             <Heading>
                 <Title>
                 Creating a Pop-up and
