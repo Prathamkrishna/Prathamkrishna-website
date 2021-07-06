@@ -9,6 +9,7 @@ export default function Home() {
       <title>
         Pratham Krishna
       </title>
+      <h1></h1>
       <meta name="description" content="Hey! My name is Pratham Krishna and I'm a developer from India, primarily working on React and it's frameworks like Nextjs. I also happen to work on React native, node, expressJS and MongoDB!" />
       <meta httpEquiv = "content-language" content = "en"></meta>
       <br />
