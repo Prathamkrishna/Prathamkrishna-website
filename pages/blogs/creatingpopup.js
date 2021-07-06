@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 import Link from 'next/link';
-import { MainFnImage, PopUpFn, DevTools } from '../components/images';
-import {Popup, UseStatesec, SetTimer, LocalStore} from '../components/popup';
+import { MainFnImage, PopUpFn, DevTools } from '../../components/images';
+import {Popup, UseStatesec, SetTimer, LocalStore} from '../../components/popup';
 
-export default function CreatingPopUp(){
+export default function CreatingPopUp(props){
     const Heading = styled.span`
         font-family: 'Courier New', monospace;
     `

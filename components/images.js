@@ -1,8 +1,8 @@
 // contains all image components for cretingpopup.js
 import Image from 'next/image';
-import image1 from '../../public/assets/mainFN.png'
-import image2 from '../../public/assets/popup.png'
-import image3 from '../../public/assets/devtools.png'
+import image1 from '../public/assets/mainFN.png'
+import image2 from '../public/assets/popup.png'
+import image3 from '../public/assets/devtools.png'
 
 function MainFnImage(){
     return <Image src={image1} width={1900} height={1000} />
