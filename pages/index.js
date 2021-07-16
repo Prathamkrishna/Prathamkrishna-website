@@ -1,7 +1,6 @@
 import styles from '../styles/Home.module.css';
 import {FaLaughBeam} from 'react-icons/fa';
 import Link from 'next/link';
-// import ReactTooltip from 'react-tooltip'
 
 export default function Home() {
   return(

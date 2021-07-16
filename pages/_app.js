@@ -1,11 +1,21 @@
 import globals from '../styles/globals.css';
 import styles from '../styles/Home.module.css';
 import Link from 'next/link';
+import styled from 'styled-components'
 import {FaDesktop} from 'react-icons/fa';
-import {IoHardwareChipOutline, IoLogoGithub, IoBookOutline} from 'react-icons/io5';
+import {IoHardwareChipOutline, IoLogoGithub, IoBookOutline, IoLogoLinkedin, IoLogoTwitter} from 'react-icons/io5';
 
 
 function MyApp({ Component, pageProps }) {
+  const Links = styled.span`
+    color: blue;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-decoration: none;
+    :hover{
+      border-bottom: 2px aquamarine solid;
+    }
+  `
   return (
     <div className={styles.body1}>
       <div className={styles.heading}>
@@ -21,8 +31,16 @@ function MyApp({ Component, pageProps }) {
         </div>
       </div>
       <Component {...pageProps} />
+      <div style={{color: 'white', display: 'flex', justifyContent: 'center', marginBottom: 7 + 'px'}}>
+        Made using<Link href="https://nextjs.org/"><a><Links>NextJS</Links></a></Link>
+        . {" "} Connect with me on <Link href="https://www.linkedin.com/in/pratham-krishna-2a4993145/"><a><Links>LinkedIn</Links></a></Link>. Find me on <Link href="https://twitter.com/prathamkrishna3"><a><Links>Twitter</Links></a></Link>.
+      </div>
   </div>
   )
 }
+
+// styled comps
+
+
 
 export default MyApp
