@@ -16,6 +16,16 @@ function MyApp({ Component, pageProps }) {
       border-bottom: 2px aquamarine solid;
     }
   `
+  const Footer = styled.div`
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7px;
+    @media(max-width: 768px){
+      display: flex;
+      flex-wrap: wrap;
+    }
+  `
   return (
     <div className={styles.body1}>
       <div className={styles.heading}>
@@ -31,10 +41,10 @@ function MyApp({ Component, pageProps }) {
         </div>
       </div>
       <Component {...pageProps} />
-      <div style={{color: 'white', display: 'flex', justifyContent: 'center', marginBottom: 7 + 'px'}}>
+      <Footer>
         Made using<Link href="https://nextjs.org/"><a><Links>NextJS</Links></a></Link>
         . {" "} Connect with me on <Link href="https://www.linkedin.com/in/pratham-krishna-2a4993145/"><a><Links>LinkedIn</Links></a></Link>. Find me on <Link href="https://twitter.com/prathamkrishna3"><a><Links>Twitter</Links></a></Link>.
-      </div>
+      </Footer>
   </div>
   )
 }
