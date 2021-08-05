@@ -10,11 +10,6 @@ export default function Blogs(){
     const Hash = styled.span`
         color: white;
         opacity: 10%;
-        // :hover{
-        //     opacity: 100%;
-        //     border-bottom: 3px solid;
-        //     border-color: red;
-        // }
     `
     const Headingofblog = styled.div`
         color: white;
