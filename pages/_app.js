@@ -4,6 +4,7 @@ import Link from 'next/link';
 import styled from 'styled-components'
 import {FaDesktop} from 'react-icons/fa';
 import {IoHardwareChipOutline, IoLogoGithub, IoBookOutline, IoLogoLinkedin, IoLogoTwitter} from 'react-icons/io5';
+import { useEffect } from 'react';
 
 
 function MyApp({ Component, pageProps }) {
@@ -26,6 +27,22 @@ function MyApp({ Component, pageProps }) {
       flex-wrap: wrap;
     }
   `
+  const HeadingLinks = styled.span`
+    color: white;
+    margin-right: 15px;
+    @media(max-width: 700px){
+      margin-right: 10px;
+    }
+    @media(max-width: 500px){
+      margin-right: 0px;
+    }
+    :hover{
+      color: blue;
+    }
+  `
+  useEffect(()=>{
+    console.log(window.innerWidth);
+  })
   return (
     <div className={styles.body1}>
       <div className={styles.heading}>
@@ -33,11 +50,13 @@ function MyApp({ Component, pageProps }) {
           <Link href="./"><a><meta name="description" content="Home" /><FaDesktop /></a></Link>
         </div>
         <div className={styles.rightheader}>
-          <Link href="https://www.github.com/Prathamkrishna"><a><meta name="description" content="Github" /><IoLogoGithub /></a></Link>
+          <Link href="https://open.spotify.com/user/eglyvn5w7g8hc2ys21tde21sg?si=67f7c905e72d4b44"><a><meta name="description" content="Pratham Krishna's spotify" /><HeadingLinks>spotify</HeadingLinks></a></Link>
           {" "}
-          <Link href="/blogs"><a><meta name="description" content="Blogs" /><IoBookOutline /></a></Link>
+          <Link href="/blogs"><a><meta name="description" content="Blogs" /><HeadingLinks>blogs</HeadingLinks></a></Link>
           {" "}
-          <Link href="https://docs.google.com/document/d/1FXJx9CgTUu2VYwuBFwcVD9CRxaa-8fqaGSiGS72anxA/edit?usp=sharing"><a><meta name="description" content="resume" /><IoHardwareChipOutline /></a></Link>
+          <Link href="https://docs.google.com/document/d/1FXJx9CgTUu2VYwuBFwcVD9CRxaa-8fqaGSiGS72anxA/edit?usp=sharing"><a><meta name="description" content="resume" /><HeadingLinks>resume</HeadingLinks></a></Link>
+          {" "}
+          <Link href="https://www.github.com/Prathamkrishna"><a><meta name="description" content="Github" /><HeadingLinks>github</HeadingLinks></a></Link>
         </div>
       </div>
       <Component {...pageProps} />
