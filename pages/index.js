@@ -8,12 +8,12 @@ export default function Home() {
       <title>
         Pratham Krishna
       </title>
-      <meta name="description" content="Hey! My name is Pratham Krishna and I'm a developer from India, primarily working on React and it's frameworks like Nextjs. I also happen to work on React native, node, expressJS and MongoDB!" />
+      <meta name="description" content="Hey! My name is Pratham Krishna and I'm a developer from India, primarily working on React and react native and it's frameworks like Nextjs. I also happen to work on React native, node, expressJS and MongoDB!" />
       <meta httpEquiv = "content-language" content = "en"></meta>
       <br />
       <h1 className={styles.bodyheader}>Hey there, my name is Pratham Krishna!</h1>
       <br />
-      I am a developer from India, primarily working on <strong className={styles.strongtext}>React</strong> and it's frameworks and libraries. I also love working with <strong className={styles.strongtext}>ExpressJS, MongoDB, C++ and Java.</strong> My non-technical skills include the usage of a few <strong className={styles.strongtext}>data structures, algorithms, flow-chart and pseudocode.</strong> Apart from my work life, I love exploring new music from a variety of genres; I have multiple organised playlists on Spotify! I also love travelling on my motorcycle whenever I need a break/time off.
+      I am a developer from India, primarily working on <strong className={styles.strongtext}>React</strong> and <strong className={styles.strongtext}>React Native</strong> and related frameworks and libraries. I also love working with <strong className={styles.strongtext}>ExpressJS, MongoDB, C++ and Java.</strong> My non-technical skills include the usage of a few <strong className={styles.strongtext}>data structures, algorithms, flow-chart and pseudocode.</strong> Apart from my work life, I love exploring new music from a variety of genres; I have multiple organised playlists on Spotify! I also love travelling on my motorcycle whenever I need a break/time off.
       <br /><br /><br />
       I am currently a sophomore studying at <Link href="https://www.lpu.in"><a><strong className={styles.otherlinks}>Lovely Professional University</strong></a></Link>, India pursuing a bachelors degree of honours in Computer Science Engineering. 
       <br /><br /><br />
