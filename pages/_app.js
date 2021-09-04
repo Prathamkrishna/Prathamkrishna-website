@@ -63,6 +63,7 @@ function MyApp({ Component, pageProps }) {
       <Footer>
         Made using<Link href="https://nextjs.org/"><a><Links>NextJS</Links></a></Link>
         . {" "} Connect with me on <Link href="https://www.linkedin.com/in/pratham-krishna-2a4993145/"><a><Links>LinkedIn</Links></a></Link>. Find me on <Link href="https://twitter.com/prathamkrishna3"><a><Links>Twitter</Links></a></Link>.
+        {" "} Check out my <Link href="https://prathamkrishna.hashnode.dev/"><a><Links>Hashnode</Links></a></Link>.
       </Footer>
   </div>
   )
