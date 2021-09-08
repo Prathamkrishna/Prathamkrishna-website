@@ -21,6 +21,10 @@ export default function Home() {
       <ul>
         <li><span className={styles.bulletedhead}><Link href="https://reactjs.org/"><a>ReactJS</a></Link>:</span> My favorite javascript library, love working with it! Powerful, efficient, a very good compatibility with other frameworks and libraries along with a very strong community support makes this a very beautiful language to work with.</li>
         <br />
+        <li><span className={styles.bulletedhead}><Link href="https://spring.io/"><a>Spring Boot</a></Link>:</span> My favorite backend framework, based on Java! Useful for making secure, powerful backend web applications!</li>
+        <br />
+        <li><span className={styles.bulletedhead}><Link href="https://reactnative.dev/"><a>React Native</a></Link>:</span> A Javascript/React library to build a cross-platform UI that works on Android, IOS and most devices!</li>
+        <br />
         <li><span className={styles.bulletedhead}><Link href="https://code.visualstudio.com/"><a>VSCode</a></Link>:</span> My all time favorite editor for any language! The interface, extensions, collaborative development and the community as an overall makes VSCode beautiful.</li>
         <br />
         <li><span className={styles.bulletedhead}><Link href="https://prettier.io/"><a>Prettier</a></Link>:</span> I like a visually appealing code which is easy to read and Prettier does that for me thereby in a way helping me reduce time in proof-reading the code! </li>
