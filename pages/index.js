@@ -28,7 +28,7 @@ export default function Home() {
         <br />        
         <li><span className={styles.bulletedhead}><Link href="https://reactjs.org/"><a>ReactJS</a></Link> : </span> My favorite javascript library, love working with it! Powerful, efficient, a very good compatibility with other frameworks and libraries along with a very strong community support makes this a very beautiful language to work with.</li>
         <br />
-        <li><span className={styles.bulletedhead}><Link href="https://reactjs.org/"><a>IntellJ Idea</a></Link> : </span> Love using this IDE for java/maven development, makes everything a whole lot easier!</li>
+        <li><span className={styles.bulletedhead}><Link href="https://www.jetbrains.com/idea/"><a>IntellJ Idea</a></Link> : </span> Love using this IDE for java/maven development, makes everything a whole lot easier!</li>
         <br />
         <li><span className={styles.bulletedhead}><Link href="https://code.visualstudio.com/"><a>VSCode</a></Link> : </span> My all time favorite editor for any language! The interface, extensions, collaborative development and the community as an overall makes VSCode beautiful.</li>
         <br />
